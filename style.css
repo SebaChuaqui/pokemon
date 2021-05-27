@@ -1,0 +1,14 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#contenedor{
+    width: 970px;
+    margin: 5px auto;
+    display: grid;
+    grid-template-columns: repeat(9, 9fr);
+    grid-template-rows: minmax(100px, max-content);
+    grid-gap: 10px;
+    background-color: black;
+}
